@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Q1 */
+header{
+    background-color: antiquewhite;
+    padding: 30px 0;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding: 0 23px;
+    list-style: none;
+}

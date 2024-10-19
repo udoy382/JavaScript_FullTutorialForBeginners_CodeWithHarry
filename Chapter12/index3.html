@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local and global Scope in JavaScript</title>
+</head>
+<body>
+    <script>
+        let p = 99;
+        {
+            let a = 8; // block level scope
+            var b = 9; // global level scope
+        }
+
+        function ax(){
+            let x = 10; // function level scope
+            console.log(p)
+            console.log(x)
+        }
+
+        <!-- console.log(a) -->
+        console.log(b)
+        console.log(p)
+
+        ax()
+    </script>
+</body>
+</html>
